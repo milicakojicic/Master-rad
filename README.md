@@ -12,7 +12,7 @@ tog razloga sami alati nisu dostupni zajedno sa kodom aplikacije. Akademski kori
 - pickpocket-1.1
 - netMHCcons-1.1
 
-I konačno, neophodno je promeniti deo koda u views.py tako da odgovara fizičkim putanjama direktorijuma u kojima se nalaze pobrojani alati na korisnikovoj mašini. 
+I konačno, neophodno je promeniti deo koda u *views.py* tako da odgovara fizičkim putanjama direktorijuma u kojima se nalaze pobrojani alati na korisnikovoj mašini. 
 
 ```sh
 ####################PUTANJE DO DIREKTORIJUMA ALATA########################
@@ -25,7 +25,7 @@ input_files_path = '/Users/milicakojicic/Desktop/master/main/static/main/input_f
 output_files_path = '/Users/milicakojicic/Desktop/master/main/static/main/output_files/'
 ```
 
-Aplikacija se pokreće ulaskom u dikrektorijum master u kom se nalazi skripta  **manage.py**  na sledeći način: <br /> 
+Aplikacija se pokreće ulaskom u dikrektorijum *master* u kom se nalazi skripta  *manage.py*  na sledeći način: <br /> 
 **python manage.py runserver**
 
 [1]: http://www.cbs.dtu.dk/ 
