@@ -1,5 +1,6 @@
 # Master-rad
 
+<div align="justify">
 Ovaj rad osmišljen je sa namerom da se neki od najpopularnijih alata za predikciju T-ćelijskih epitopa u naučnoj zajednici objedine u jednoj aplikaciji. Omogućeno je njihovo samostalno pokretanje kroz veb interfejs, koje je tako implementirano da korisnicima pruža svu udobnost u radu sa ovim alatima. Korisniku je data sloboda da sam podešava parametre koji odgovaraju njegovom istraživanju i dat mu je detaljan opis za korišćenje i pokretanje alata, kao i objašnjenje izlaznih rezultata. Implementiran je i novi metaprediktor koji koristiti predikcije svih razmatranih alata i donosi konačnu odluku na osnovu različitih glasačkih šema (konsenzusa). Metaprediktor je zapravo pokušaj da se rezultati razmatranih alata integrišu, kao i da se obezbedi sigurnija i pouzdanija predikcija. 
 
 Preduslovi za pokretanje aplikacije jesu da korisnik na lokalnoj mašini ima instaliran:
@@ -30,4 +31,6 @@ output_files_path = '/Users/milicakojicic/Desktop/master/main/static/main/output
 Aplikacija se pokreće ulaskom u dikrektorijum *master* u kom se nalazi skripta  *manage.py*  na sledeći način: <br /> 
 **python manage.py runserver**
 
+</div>
 [1]: http://www.cbs.dtu.dk/services/
+
