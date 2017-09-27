@@ -5,7 +5,7 @@ Preduslovi za pokretanje aplikacije jesu da korisnik na lokalnoj mašini ima ins
 - django 1.11.4.
 
 S obzirom da alati koji se koriste u aplikaciji nisu besplatno dostupni neakademskim korisnicima, iz
-tog razloga sami alati nisu dostupni zajedno sa kodom aplikacije. Akademski korisnici mogu ove alate besplatno da preuzmu na adresi [http://www.cbs.dtu.dk/][1] i to:
+tog razloga alati nisu dostupni zajedno sa kodom aplikacije. Akademski korisnici mogu ove alate besplatno da preuzmu na adresi [http://www.cbs.dtu.dk/][1] i to:
 - netMHC-4.0
 - netMHCpan-3.0
 - netCTLpan-1.1
@@ -28,4 +28,4 @@ output_files_path = '/Users/milicakojicic/Desktop/master/main/static/main/output
 Aplikacija se pokreće ulaskom u dikrektorijum *master* u kom se nalazi skripta  *manage.py*  na sledeći način: <br /> 
 **python manage.py runserver**
 
-[1]: http://www.cbs.dtu.dk/ 
+[1]: http://www.cbs.dtu.dk/services/
