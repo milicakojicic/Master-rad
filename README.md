@@ -25,7 +25,7 @@ input_files_path = '/Users/milicakojicic/Desktop/master/main/static/main/input_f
 output_files_path = '/Users/milicakojicic/Desktop/master/main/static/main/output_files/'
 ```
 
-Aplikacija se pokreće ulaskom u dikrektorijum master u kom se nalazi skripta  **manage.py**  na sledeći način:
+Aplikacija se pokreće ulaskom u dikrektorijum master u kom se nalazi skripta  **manage.py**  na sledeći način: <br /> 
 **python manage.py runserver**
 
 [1]: http://www.cbs.dtu.dk/ 
