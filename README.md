@@ -1,5 +1,7 @@
 # Master-rad
 
+Ovaj rad osmišljen je sa namerom da se neki od najpopularnijih alata za predikciju T-ćelijskih epitopa u naučnoj zajednici objedine u jednoj aplikaciji. Omogućeno je njihovo samostalno pokretanje kroz veb interfejs, koje je tako implementirano da korisnicima pruža svu udobnost u radu sa ovim alatima. Korisniku je data sloboda da sam podešava parametre koji odgovaraju njegovom istraživanju i dat mu je detaljan opis za korišćenje i pokretanje alata, kao i objašnjenje izlaznih rezultata. Implementiran je i novi metaprediktor koji koristiti predikcije svih razmatranih alata i donosi konačnu odluku na osnovu različitih glasačkih šema (konsenzusa). Metaprediktor je zapravo pokušaj da se rezultati razmatranih alata integrišu, kao i da se obezbedi sigurnija i pouzdanija predikcija. 
+
 Preduslovi za pokretanje aplikacije jesu da korisnik na lokalnoj mašini ima instaliran:
 - python 2.7
 - django 1.11.4.
@@ -12,7 +14,7 @@ tog razloga alati nisu dostupni zajedno sa kodom aplikacije. Akademski korisnici
 - pickpocket-1.1
 - netMHCcons-1.1
 
-I konačno, neophodno je promeniti deo koda na početku *views.py* tako da odgovara fizičkim putanjama direktorijuma u kojima se nalaze pobrojani alati na korisnikovoj mašini. 
+I konačno, neophodno je promeniti deo koda na početku *views.py* tako da odgovara fizičkim putanjama direktorijuma na korisnikovoj mašini u kojima se nalaze pobrojani alati. 
 
 ```sh
 ####################PUTANJE DO DIREKTORIJUMA ALATA########################
