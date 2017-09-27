@@ -31,6 +31,8 @@ output_files_path = '/Users/milicakojicic/Desktop/master/main/static/main/output
 Aplikacija se pokreće ulaskom u dikrektorijum *master* u kom se nalazi skripta  *manage.py*  na sledeći način: <br /> 
 **python manage.py runserver**
 
-</div>
 [1]: http://www.cbs.dtu.dk/services/
+
+</div>
+
 
