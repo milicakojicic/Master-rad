@@ -12,7 +12,7 @@ tog razloga alati nisu dostupni zajedno sa kodom aplikacije. Akademski korisnici
 - pickpocket-1.1
 - netMHCcons-1.1
 
-I konačno, neophodno je promeniti deo koda u *views.py* tako da odgovara fizičkim putanjama direktorijuma u kojima se nalaze pobrojani alati na korisnikovoj mašini. 
+I konačno, neophodno je promeniti deo koda na početku *views.py* tako da odgovara fizičkim putanjama direktorijuma u kojima se nalaze pobrojani alati na korisnikovoj mašini. 
 
 ```sh
 ####################PUTANJE DO DIREKTORIJUMA ALATA########################
